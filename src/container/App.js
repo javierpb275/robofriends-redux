@@ -9,6 +9,7 @@ import './App.css';
 
 import { setSearchField, requestRobots } from '../actions';
 
+
 const mapStateToProps = state => {
     return {
         searchField: state.searchRobots.searchField,
